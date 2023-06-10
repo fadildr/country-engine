@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/src/assets/font/Pro-Text-Regular.ttf") format("truetype");
+}
+* {
+  font-family: "SF Pro Text", sans-serif;
+}
+
+/* SEARCH PAGE */
+.title-search {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.form-input {
+  margin: 20px 200px;
+  /* padding: 0 20px; */
+}
+.input-search {
+  border: 0.5px solid #c8c8c8;
+  border-radius: 10px;
+  outline: none;
+  height: 50px;
+}
+.input-search::placeholder {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #c8c8c8;
+}
+.input-search:focus {
+  border: 2px solid #8362f2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.btn-search {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+/* AUTO COMPLETE COMPONENT */
+.country-field {
+  background: #ffffff;
+  box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.02), 4px 4px 4px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  margin: 0 200px;
+}
+.list-country {
+  list-style: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  /* padding: 20px 0px; */
+}
+.list-country:hover {
+  background: #f4f4f4;
+}
+.data-not-found {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ff0000;
+}
+
+/* DETAIL COUNTRY PAGE */
+.prevbtn {
+  background: #8362f2;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+}
+.title-country {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+
+  color: #000000;
+}
+.spelling-type {
+  background: #8dd5cc;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 5px 10px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.card-detail {
+  box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.02), 4px 4px 4px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  /* width: 50%; */
+  height: 143px;
+}
+.title-latlong {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.answer-detail {
+  font-family: "SF Pro Text";
+  font-style: normal;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.detail-country {
+  font-family: "SF Pro Text";
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.latlong-numbers {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  color: #8362f2;
+}
+.title-calling {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.many-countries {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.many-countries span {
+  border-bottom: 1.5px solid #8362f2;
+  color: #8362f2;
+  cursor: pointer;
+  /* padding-bottom: 2px; */
+}
+.flag-img {
+  width: 46px;
+  height: 30px;
+}
+.list-contries-currencies {
+  background: #525252;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+}
+.list-contries-currencies ul li {
+  list-style: none;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.list-contries-currencies ul {
+  padding: 0;
+}
