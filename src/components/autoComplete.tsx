@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 type CountryProps = {
   common: string;
@@ -16,7 +15,6 @@ interface DataProps {
 }
 export default function AutoComplete({ suggestions, isError }: DataProps) {
   const navigate = useNavigate();
-
   return (
     <>
       {suggestions.length ? (

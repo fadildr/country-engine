@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { DataCountry } from "../utils/type";
 import PrevButton from "../components/prevButton";
+import Loading from "react-loading";
 import HalfGlobe from "../assets/half-globe.png";
 import CallingCurrency from "../components/callingCurrency";
 import axios from "axios";
@@ -9,8 +10,7 @@ export default function DetailCountry() {
   const { country } = useParams();
   const arrCountry = [];
   arrCountry.push(country);
-  console.log(arrCountry);
-  const [altSpell, setAltSpell] = useState([""]);
+
   const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState<DataCountry[]>([]);
   const [currencies, setCurrencies] = useState("");
@@ -125,6 +125,10 @@ export default function DetailCountry() {
       </div>
     </div>
   ) : (
-    <></>
+    <div
+      className="d-flex align-items-center justify-content-center  "
+      style={{ minHeight: "100vh" }}>
+      <Loading type="bubbles" color="#8362f2" width={100} height={100} />
+    </div>
   );
 }
