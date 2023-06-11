@@ -10,6 +10,9 @@ This is a starter template for run this project.
 - JSX: Syntax extension for embedding HTML-like code within TypeScript.
 - ESLint: Linting tool to maintain code quality and consistency.
 - Prettier: Code formatter to enforce code style conventions.
+## Demo
+
+Check out the [live demo](https://country-engine-fadil.vercel.app/) of this project.
 
 ## Requirements
 
@@ -61,12 +64,13 @@ In the project directory, you can run the following scripts:
 The project structure follows a conventional React.js setup:
 
 ```
-react-vite-typescript-starter/
+country-engine/
   ├── public/                  # Public assets
   ├── src/                     # Application source code
   │   ├── assets/              # Assets for font and image
   │   ├── components/          # Reusable components
   │   ├── pages/               # Application pages
+  │   ├── utils/type           # Interface typescript
   │   ├── App.tsx              # Main application component
   │   └── main.tsx             # Entry point
   |   └── index.css            # Main CSS
@@ -101,6 +105,3 @@ This will create a production-ready build in the `dist` directory. You can deplo
 
 If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Contributions are always welcome!
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
