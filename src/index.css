@@ -194,3 +194,27 @@
 .list-contries-currencies ul {
   padding: 0;
 }
+@media (max-width: 740px) {
+  .form-input {
+    margin: 20px 100px;
+  }
+  .country-field {
+    margin: 0 100px;
+  }
+}
+@media (max-width: 600px) {
+  .form-input {
+    margin: 20px 50px;
+  }
+  .country-field {
+    margin: 0 50px;
+  }
+}
+@media (max-width: 370px) {
+  .form-input {
+    margin: 20px 20px;
+  }
+  .country-field {
+    margin: 0 20px;
+  }
+}
