@@ -1,6 +1,6 @@
 # Country Engine (TypeScript)
 
-This is a starter template for building React.js applications using Vite and TypeScript.
+This is a starter template for run this project.
 
 ## Features
 
