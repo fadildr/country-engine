@@ -70,6 +70,7 @@ react-vite-typescript-starter/
   │   ├── assets/              # Assets for font and image
   │   ├── components/          # Reusable components
   │   ├── pages/               # Application pages
+  │   ├── utils/type           # Interface typescript
   │   ├── App.tsx              # Main application component
   │   └── main.tsx             # Entry point
   |   └── index.css            # Main CSS
