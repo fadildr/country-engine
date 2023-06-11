@@ -1,6 +1,6 @@
 # Country Engine (TypeScript)
 
-This is a starter template for building React.js applications using Vite and TypeScript. Vite is a fast build tool that provides an optimized development experience for modern web applications, and TypeScript adds static typing to your JavaScript code, helping catch errors early during development.
+This is a starter template for building React.js applications using Vite and TypeScript.
 
 ## Features
 
@@ -8,11 +8,8 @@ This is a starter template for building React.js applications using Vite and Typ
 - Vite: A fast development build tool.
 - TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 - JSX: Syntax extension for embedding HTML-like code within TypeScript.
-- Hot Module Replacement (HMR): Fast module reloading during development.
 - ESLint: Linting tool to maintain code quality and consistency.
 - Prettier: Code formatter to enforce code style conventions.
-- Husky: Git hooks for running scripts before commits.
-- lint-staged: Run linters on git staged files.
 
 ## Requirements
 
@@ -67,10 +64,12 @@ The project structure follows a conventional React.js setup:
 react-vite-typescript-starter/
   ├── public/                  # Public assets
   ├── src/                     # Application source code
+  │   ├── assets/              # Assets for font and image
   │   ├── components/          # Reusable components
   │   ├── pages/               # Application pages
   │   ├── App.tsx              # Main application component
-  │   └── index.tsx            # Entry point
+  │   └── main.tsx             # Entry point
+  |   └── index.css            # Main CSS
   ├── .eslintrc.js             # ESLint configuration
   ├── .prettierrc.js           # Prettier configuration
   ├── index.html               # HTML template
